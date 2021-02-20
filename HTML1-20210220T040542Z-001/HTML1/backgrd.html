@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Meet TREKSERVE</title>
+		
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" 
+	integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<style>
+	 body {
+    font-family: "Lato", sans-serif;
+}
+
+
+.ul {
+  display: flex;
+  position: absolute;
+  z-index:1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.ul li {
+ list-style:none;
+ }
+ 
+ .ul li a {
+ z-index:1;
+ width: 100px;
+ height: 100px;
+ background:#fff;
+ text-align:center;
+ line-height:100px;
+ font-size:50px;
+ display:circle;
+ border-radius:50%;
+ 
+ }
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FFFFF0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #008B8B;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.a{
+left:300px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  display: flex;
+  
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  left:1270px;
+  top:100px;
+  position:fixed;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  left:1270px;
+  top:150px;
+  position:fixed;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+  left:1270px;
+  top:200px;
+  position:fixed;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  left:1270px;
+  top:250px;
+  position:fixed;
+}
+
+.fa-instagram {
+  background: rgb(168, 91, 153);
+  color: white;
+  left:1270px;
+  top:300px;
+  position:fixed;
+}
+</style>
+	</head>
+	<body>
+	<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/?lang=en-gb" class="fa fa-twitter"></a>
+    <a href="https://www.google.nl/" class="fa fa-google"></a>
+    <a href="https://uk.linkedin.com/" class="fa fa-linkedin"></a>
+    <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+		
+		<div class="background-wrap" style="z-index:-1;">
+			<video id="video-bg" preload="auto" autoplay="true" loop="loop" muted="muted"> 
+				<source src="E:\html proj\This is Egypt.mp4" type="video/mp4">
+			
+				Sorry That The Amazing video Is Not Supported Please Contact us and tell us which operating system or which browser you use Sorry!
+			</video>   
+</div>
+
+<div id="mySidenav" class="sidenav"style="z-index:1;left:1120px;">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="about.html">About</a>
+  <a href="sec page.html">Services</a>
+  <a href="contact.html">Contact</a>
+</div>
+<div >
+<p style="left:70px;top:630px;position:absolute;background-color:gray;color:white;opacity:0.5;width:440px;height:40px;"><a align="center" href="https://www.jeffcurrier.com/fly-fishing-in-egypt/"style="font-family:AR DESTINE;font-size:38px;color:white;"><b><i>  FLY FISHING </i></b> </a></p>
+<p style="left:930px;top:630px;position:absolute;background-color:gray;color:white;opacity:0.5;width:400px;height:40px;"><a align="center" href="http://www.dive-the-world.com/diving-sites-egypt.php"style="font-family:AR DESTINE;font-size:38px;color:white;"> <b><i> SCUBA DIVING </i></b> </a></p>
+<p style="left:520px;top:630px;position:absolute;background-color:gray;color:white;opacity:0.5;width:400px;height:40px;"><a align="center" href="https://www.inspirock.com/relaxing-places-in-egypt"style="font-family:AR DESTINE;font-size:38px;color:white;"><b><i>  RELAXING </i></b> </a></p>
+</div>
+
+<span class="a" style="font-size:40px;cursor:pointer;position:fixed;left:1230px;top:5px;" onclick="openNav()"><button style="color:white;background-color:black;position:static;height:50px;width:100px;opacity:.3;"><strong> MENU</strong></button></span>
+
+
+<span class="a" style="font-size:40px;cursor:pointer;position:fixed;left:1060px;top:5px;"><a href="login.html"><button style="color:white;background-color:black;position:static;height:50px;width:150px;opacity:.3;"><strong>PLAN A TRIP</strong></button></a></span>
+<span class="a" style="font-size:40px;cursor:pointer;position:fixed;left:20px;top:4px;"><a href="Residential.html"><button style="color:white;background-color:black;position:static;height:50px;width:150px;opacity:.3;"><strong>RESIDENTIAL SERVICE</strong></button></a></span>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<ul>
+   <li><a><i class="fas fa-video"></i></a></li>
+ </ul>
+</body>
+</html>

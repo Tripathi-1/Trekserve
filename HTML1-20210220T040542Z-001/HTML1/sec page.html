@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+	body
+	{
+	background-color:	#606060;
+	}
+	.textoverImage
+	{
+	position:relative;
+	width:400px;
+	height:300px;
+	float:left;
+	margin:20px;
+	background-size:100%;
+	transition:0.5s;
+	}
+	
+	.textoverImage:hover
+	{
+	  background-size:110%;
+	}
+	.textoverImage:after
+	{
+	  position:absolute;
+	  top:90%;
+	  bottom:0;
+	  left:0;
+	  right:0;
+	  overflow: hidden;
+	  background-color:rgba(0,0,0,.3);
+	  color:#fff;
+	  padding:0 8px;
+	  content:attr(data-text);
+	  transition:0.5s;
+	}
+	.textoverImage:hover:after
+	{
+	top:0;
+	padding:8px;
+	background-color:rgba(0,0,0,.6);
+	}
+	.textoverImage:first-line{
+	color:#fff;
+	font-weight:bold;
+	font-size:1.5em;
+	
+    </style>
+</head>
+<body>
+   <div class="textoverImage"
+   style="background-image:url(rafting1.jpg)" data-text="White water rafting 
+   in river Nile.There are plenty of activities to keep visitors busy in Jinja, but the most popular choice is white water rafting on the Nile River.
+   Activities can be booked right at the campsite and transportation is included (so are meals if it’s a half or full day). Novice rafters are welcome. A full-day trip costs $125 and comes with perks like a free night or two of accommodation; check their website when you book to make the most of it.">
+     </div>
+	 
+	    <div class="textoverImage"
+   style="background-image:url(nile.jpg)" data-text="Cruise on Nile
+   No trip to Cairo is complete without a trip on the mighty Nile. You can choose between floating restaurants and nightclubs and cruise boats, but nothing really compares with a relaxing and rewarding river experience on board a felucca. 
+   Come dusk,when the call to prayer echoes around Cairo, board one of these traditional sailing boats and experience the marvelous serenity only the Nile can offer.">
+     </div>
+	 
+	    <div class="textoverImage"
+   style="background-image:url(sphinix.jpg)" data-text="The Sphinx
+   A short drive to the city side of the Giza plateau takes you to the feet of the Sphinx, another enigmatic symbol of ancient Egypt. An aged marvel, the reclining lion with a human head sits proudly on the Nile‘s west bank. 
+   For thousands of years, the mysterious Sphinx has been looming over Giza, guarding the only remaining of the Seven Ancient Wonders of the World.">
+     </div>
+	 
+	    <div class="textoverImage"
+   style="background-image:url(mosque.jpg)" data-text="Al-Azhar Mosque
+   Built in 970 AD, Al-Azhar is one of Cairo’s newer mosques, its sheikh being considered as the highest theological authority among Egyptian Muslims. The building has seen extensive enlargements over its thousand-year period, thus becoming a harmonious blend of architectural styles. 
+   The mosque exhibits three minarets dating from the 14th, 15th and 16th centuries, while the central courtyard is the earliest part built.">
+     </div>
+	 
+	    <div class="textoverImage"
+   style="background-image:url(mask.jpg)" data-text="Egyptian Museum Of Antiquities
+   Back in the centre of Cairo, just outside Tahrir Square, visitors will find the Egyptian Museum of Antiquities (Midan El-Tahrir); one of the many museums in the city that invite people to explore Egypt’s glorious past. 
+   Definitely a must-see while in town, the museum houses a unique collection of more than 160,000 pieces of ancient Egyptian history.">
+     </div>
+	 
+	    <div class="textoverImage"
+   style="background-image:url(church2.jpg)" data-text="Church Of The Virgin Mary
+   Next we stop by this famed 4th-century church. It takes its name from the fact that it appears suspended, as it was built on the ruins of two old towers remaining from an old fortress, the Fortress of Babylon. The church is quite rustic, which is understandable considering its age, 
+   and has heavy doors, inlaid with ebony and ivory, and marble pillars.">
+     </div>
+	    
+	 
+
+</body>
+</html> 

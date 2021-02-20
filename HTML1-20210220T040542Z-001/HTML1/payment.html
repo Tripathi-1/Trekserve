@@ -1,0 +1,160 @@
+<html>
+<head>
+<title>PAYMENT</title>
+<style>
+    
+    #header
+{
+  width:1330px;
+  height:150px;
+  z-index:19;
+    position: fixed;
+    font-family: summr_sketch;
+    font-size:50;
+    background:aliceblue;
+    filter: alpha(opacity=70);
+            -moz-opacity:.70;
+            opacity:2;
+        
+     }
+.Content 
+    {
+        margin-top: 160px;
+        position: absolute;
+        font-family: "Pasajero";
+        font-size: 30;
+        
+        width:1330;
+    }
+#do
+    {
+         font-family:"Pasajero";        
+    background-color: darkslategray;
+    border: none;
+    color: aquamarine  ;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointe;
+    }
+input[type="text"],input[type="password"],input[type="date"]
+    {
+        height:30px;
+        width:200px;
+        font-size:20px;
+        border:none;
+        border-radius:5px;
+        margin-bottom:23px;
+        background-color:antiquewhite;
+        padding-left:5px;
+        
+    }    
+select
+    {
+        height:35px;
+        width:150px;
+        font-size:20px;
+        border:none;
+        border-radius:5px;
+        margin-bottom:23px;
+        background-color:antiquewhite;
+        padding-left:5px;  
+        
+    }
+    #footer
+    {
+       
+        margin-top:630;
+        font-family: summr_sketch;
+        color:white;
+        background: black;
+        width:1330;
+        float: left;
+    }
+    
+    
+    
+body
+    {
+        background: url("icon.jpg");
+        background-repeat: no-repeat
+    }
+</style>
+    <script>
+    function test()
+{
+
+{
+alert(" Your payment is paid :");
+}
+    </script>
+    
+</head>
+<body>
+<div id="header">
+    <p align="center"><a  href="_self"><img src="icon.png" align="left"width="110"></a>NVSS</p>
+    </div>
+<div class="Content">    
+    <fieldset clas="set" align="center"><legend><font  face="Century Gothic" size="10" color="ORANGE" ><marquee behavior="scroll" scrollamount=3>  YOUR PAYMENT</marquee></font></legend>
+
+    <div class="table1">     
+<table align="center"  cellpadding="2" cellspacing="4">
+<form>
+<tr >
+    <td align="center" colspan="2"><font color="blue" size="5"> NAME:</font></td>
+<td align="center"><input type="text" placeholder="       " id="box1" required></td> 
+<td>
+    </td>    
+    </tr>
+<tr>
+    <td align="center" colspan="1"><font color="blue" size="5">MOBILE NUMBER</font></td>
+<td align="center"> <input type="password" placeholder="        " id="box3" required></td>
+    <td></td>    
+    <td align="center" colspan="1"><font color="blue"size="5">E-mail</font></td>
+    <td align="center"><input type="text"placeholder="     " id="box4" required></td></tr>
+    <tr><th align="center" ><font color="blue" size="5">Check-in</font></th>
+        <th align="center"><font color="blue" size="5">Check-out</font></th>
+        <th align="center"><font color="blue" size="5">Rooms</font></th>
+        <th align="center"><font  color="blue" size="5">Adult</font></th>
+        <th align="center"><font color="blue" size="5">Child</font></th>
+        <th align="center"><font color="blue" size="5">ENTER AMOUNT TO BE PAID:</font></th>
+        <td align="center"> <input type="TEXT" placeholder="        " id="box5" required></td>
+</tr>
+<tr>
+<td align="center"><input type="date" name="" required></td>
+ <td align="center"><input type="date" name="" required></td>
+              <td>
+                <input type="text" placeholder="    "> 
+                 </select></td>
+			 <td align="center">
+                 <input type="text" name="adults" placeholder="      ">
+             </td>
+			 <td align="center">
+                 
+                 <input type="text" name="child" placeholder="      "
+    </td>
+                
+    <td align="center" colspan="2"> 
+    <select>
+    <option>ROYALE HOTEL CHANDIGARH</option>
+    <option>ROYALE HOTEL DELHI</option>
+    <option>ROYALE HOTEL MUMBAI</option>
+    </select>
+    </td>
+        </tr>
+    <tr>
+    <td align="center" colspan="10"><button  id="do" onClick="test()"  >PAY   N0W</button></td></tr>
+</form>
+</table>
+</div>
+       </fieldset>           
+ </div>
+    <br><br><br>
+<div id="footer">
+    <p align="center">NVSS<br>
+        2017 &copy; ALL rights reserved</p>
+    </div>
+</body></html>
